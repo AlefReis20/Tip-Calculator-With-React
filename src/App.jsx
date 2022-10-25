@@ -64,7 +64,7 @@ function App() {
         <C.DivLeft>
           <C.DivSon>
             <C.Label>Bill</C.Label>
-            <Input
+            <C.InputBill
               type='number'
               onChange={catchValues}
               ref={inputBill}
