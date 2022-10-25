@@ -52,6 +52,9 @@ function App() {
   }
 
   function resetValues() {
+    setTipAmount('0.00');
+    setTotalPerPerson('0.00');
+    setGrandTotal('0.00');
     inputBill.current.value = '';
     inputPerson.current.value = '';
     inputCustom.current.value = '';
