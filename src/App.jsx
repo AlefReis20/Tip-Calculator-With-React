@@ -4,6 +4,7 @@ import Logo from './assets/logo.svg';
 import Button from './components/Button';
 import H2 from './components/H2';
 import P from './components/Paragraph';
+import Input from './components/Input';
 
 import * as C from './styles/globalStyles';
 
@@ -63,7 +64,7 @@ function App() {
         <C.DivLeft>
           <C.DivSon>
             <C.Label>Bill</C.Label>
-            <C.InputBill
+            <Input
               type='number'
               onChange={catchValues}
               ref={inputBill}
